@@ -74,6 +74,7 @@
 
 a i{
     margin: 15px;
+    border-right: 15px;
 }
 
 .sidebar ul li a:hover{
@@ -94,6 +95,7 @@ a i{
 i{
     font-size: 30px;
     color: white;
+    padding-right: 15px;
 }
 
 .show-button, .hide-button{

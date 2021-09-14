@@ -50,7 +50,7 @@
     height: 100vh;
     position: fixed;
     top: 70px;
-    background-color: #0292B7;
+    background-color: #06343f;
     left: -100%;
     transition: 0.7s;
 }
@@ -96,7 +96,7 @@ i{
     color: white;
 }
 
-.show-button,.hide-button{
+.show-button, .hide-button{
     font-size: 35px;
     color: white;
     position: fixed;
@@ -114,6 +114,10 @@ i{
 
 #chk:checked ~ .show-button{
     opacity: 0;
+}
+
+#chk:checked ~ .hide-button{
+    opacity: 1;
 }
 
 #chk:checked ~ .content{

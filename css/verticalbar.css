@@ -41,3 +41,28 @@
 .content p{
     text-align: justify;
 }
+
+.sidebar{
+    width:20%;
+    height: 100%;
+    position: fixed;
+    top: 70px;
+    background-color: #0292B7;
+}
+
+.sidebar ul{
+    list-style: none;
+}
+
+.sidebar ul li{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px 25px;
+
+}
